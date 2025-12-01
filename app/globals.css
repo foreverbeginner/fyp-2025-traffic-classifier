@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-slate-50 text-slate-800; }
+.container { @apply max-w-4xl mx-auto px-4 py-6; }
+a { @apply text-indigo-600 hover:text-indigo-800; }
+.btn { @apply inline-block px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700; }
